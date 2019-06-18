@@ -15,9 +15,7 @@ for x in range(Untap):
     #Below ensures that you don't get negative values for the amount of mana in pool, which can't go below 0 and offputs the ManaPool output by 2 if it does
     if ManaPool < 0:
         ManaPool = 0
-    
-    if x == Untap:
-        break
-    
+ 
 print(Power)
 print(ManaPool)
+
