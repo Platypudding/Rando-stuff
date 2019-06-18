@@ -1,8 +1,8 @@
-#Input power as Marwynn's power at the very beginning of the loop
+#Input power as Marwynn's power at the beginning of the loop
 Power = 1
 
 #Number of times you go through the full tap and untap process
-Untap = 10
+Untap = 1
 
 #Amount of mana in the pool. Always starts at 0
 ManaPool = 0
