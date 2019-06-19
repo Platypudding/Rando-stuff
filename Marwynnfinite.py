@@ -1,9 +1,7 @@
-#Input power as Marwynn's power at the beginning of the loop
-Power = 1
-
+#Defines Marwynn's starting power
+Power = int(input("Enter Marwynn's power: "))
 #Number of times you go through the full tap and untap process
-Untap = 1
-
+Untap = int(input("Enter times tapped: "))
 #Amount of mana in the pool. Always starts at 0
 ManaPool = 0
 
@@ -18,4 +16,3 @@ for x in range(Untap):
  
 print(Power)
 print(ManaPool)
-
